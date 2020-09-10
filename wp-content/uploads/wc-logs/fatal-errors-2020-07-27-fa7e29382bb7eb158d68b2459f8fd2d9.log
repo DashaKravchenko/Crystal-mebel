@@ -1,0 +1,22 @@
+2020-07-27T18:02:57+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in F:\IT\OSPanel\domains\crystalmebel\wp-content\plugins\wc-ukr-shipping\Api\NovaPoshtaApi.php:58
+Stack trace:
+#0 F:\IT\OSPanel\domains\crystalmebel\wp-content\plugins\wc-ukr-shipping\Api\NovaPoshtaApi.php(35): kirillbdev\WCUkrShipping\Api\NovaPoshtaApi->sendRequest(Array)
+#1 F:\IT\OSPanel\domains\crystalmebel\wp-content\plugins\wc-ukr-shipping\Http\NovaPoshtaAjax.php(123): kirillbdev\WCUkrShipping\Api\NovaPoshtaApi->getCities(14)
+#2 F:\IT\OSPanel\domains\crystalmebel\wp-includes\class-wp-hook.php(287): kirillbdev\WCUkrShipping\Http\NovaPoshtaAjax->loadCities('')
+#3 F:\IT\OSPanel\domains\crystalmebel\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 F:\IT\OSPanel\domains\crystalmebel\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 F:\IT\OSPanel\domains\crystalmebel\wp-admin\admin-ajax.php(175): do_action('wp_ajax_wc_ukr_...')
+#6 {main}
+  thrown в F:\IT\OSPanel\domains\crystalmebel\wp-content\plugins\wc-ukr-shipping\Api\NovaPoshtaApi.php на строке 58
+
+2020-07-27T18:19:55+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in F:\IT\OSPanel\domains\crystalmebel\wp-content\plugins\wc-ukr-shipping\Api\NovaPoshtaApi.php:58
+Stack trace:
+#0 F:\IT\OSPanel\domains\crystalmebel\wp-content\plugins\wc-ukr-shipping\Api\NovaPoshtaApi.php(47): kirillbdev\WCUkrShipping\Api\NovaPoshtaApi->sendRequest(Array)
+#1 F:\IT\OSPanel\domains\crystalmebel\wp-content\plugins\wc-ukr-shipping\Http\NovaPoshtaAjax.php(140): kirillbdev\WCUkrShipping\Api\NovaPoshtaApi->getWarehouses(26)
+#2 F:\IT\OSPanel\domains\crystalmebel\wp-includes\class-wp-hook.php(287): kirillbdev\WCUkrShipping\Http\NovaPoshtaAjax->loadWarehouses('')
+#3 F:\IT\OSPanel\domains\crystalmebel\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 F:\IT\OSPanel\domains\crystalmebel\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#5 F:\IT\OSPanel\domains\crystalmebel\wp-admin\admin-ajax.php(175): do_action('wp_ajax_wc_ukr_...')
+#6 {main}
+  thrown в F:\IT\OSPanel\domains\crystalmebel\wp-content\plugins\wc-ukr-shipping\Api\NovaPoshtaApi.php на строке 58
+
